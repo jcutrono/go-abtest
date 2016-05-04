@@ -7,7 +7,7 @@ background info
 
 ----
 ## new campaign
-POST https://roller-api.ultilabs.xyz/api/campaign
+POST https://{}/api/campaign
 
 * name: name of the campaign to track
 * options: options available to select from
@@ -21,12 +21,12 @@ POST https://roller-api.ultilabs.xyz/api/campaign
 
 ----
 ## Roll the dice
-GET https://roller-api.ultilabs.xyz/api/campaign/{campaign name}/roll
+GET https://{}/api/campaign/{campaign name}/roll
 
 * Will give you an option based on algorithm from article
 
 ----
 ## Post selection
-POST https://roller-api.ultilabs.xyz/api/selection/{campaign name}/{option name selected}
+POST https://{}/api/selection/{campaign name}/{option name selected}
 
 * Track when an option is selected
